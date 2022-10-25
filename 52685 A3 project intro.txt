@@ -1,0 +1,12 @@
+Hi，My name is Zhirui Shang. The project I'm making is a DJ-style piece of music, coded in a Sonic Pi. 
+The creative inspiration comes from people's relaxation, and the way to vent their emotions is to listen to fast-paced songs. 
+The music is designed to make listeners forget about fleeting worries and put them in a good mood.
+
+I divided them into four parts, the first is the first part, which uses two sample sound effects of drum and rewind. First use the "time" command code to divide the playing times of the drum sound into 4 times, 4 times, and 9 times. Then use the "sleep" command to set their play counts to 1, 0.5, and 0.1. Finally, end with a rewinded sample sound effect to give the beginning a sense of rhythm and substitution.
+
+The second part is a simple drum and bass sample combination, I think this combination is the most successful in the whole piece of music, so this part does not use more complex code to change its tone, just a simple arrangement and Use the "sleep" code to keep them at the proper speed.
+
+The third part is a transitional sound that combines two different drum sounds and electronic sounds. This uses the new code "rate", which makes the sample sound twice as long and an octave higher.
+
+The last part uses "release" code and "rrand" random function code in addition to electronic sounds and drum sounds. The "release" code can well control the duration of the sound release, and a shorter release time will produce a shorter release time. synth fades out. The "rrand" function can make the sound effect play a certain tone randomly in the tone interval. For example, the role of the "rrand" function here is to make the synthesizer tb303 play the tone in the interval 60-120.
+That's all the details about the project I made!
